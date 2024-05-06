@@ -30,6 +30,9 @@ Data Processing and Balancing: We use the VADER tool to reclassify and balance t
 
 Data Cleaning and Preprocessing: We perform data cleaning to remove irrelevant and noisy components from the text data, including URLs, HTML tags, special characters, and user mentions. We also perform tokenization, stop word removal, lemmatization, and expansion of contractions.
 
+<img width="256" alt="image" src="https://github.com/AichSwayamprava/A-Comprehensive-Sentiment-Analysis-Framework-on-Twitter-Data/assets/128501002/d2b431b8-cc3d-4198-b52a-3f44af9eb2e8">
+
+
 ## TF-IDF Vectorization for Feature Extraction
 We use TF-IDF vectorization to transform preprocessed text into a numerical format suitable for machine learning algorithms. TF-IDF helps in selecting and weighting words based on their importance in the document and the corpus.
 
