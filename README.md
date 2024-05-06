@@ -4,7 +4,7 @@ Authors: Swayamprava Aich, Radhika Kumavat, Divya Naika, Aman Phogat, Deep Patel
 Course: APLN-552: Special Topics in Natural Language Processing
 Institution: Montclair State University
 
-## Abstract
+## Abstract:
 
 Twitter generates vast amounts of data reflecting public sentiment. This project uses supervised machine learning to analyze sentiments in tweets. We preprocess the tweets by removing special characters, stopwords, and performing lemmatization. We then apply TF-IDF vectorization to transform the preprocessed tweets into a numerical format, capturing the importance of words in each tweet relative to the entire dataset.
 To improve prediction accuracy, we employ an ensemble of classifiers, including Random Forest, Support Vector Machine, Logistic Regression, and Multinomial Naive Bayes. Each classifier provides a unique perspective on the sentiment analysis task, and by combining their predictions, we achieve a more robust and accurate sentiment classification model.
@@ -19,3 +19,13 @@ The dataset that was used was obtained from “Kaggle” (https://www.kaggle.com
 ![image](https://github.com/AichSwayamprava/A-Comprehensive-Sentiment-Analysis-Framework-on-Twitter-Data/assets/128501002/e7144ea9-4c76-4aa0-896d-3daf2c4468fa)
 
 It contains 1,600,000 tweets extracted using the twitter API. The tweets have been annotated (0 = negative, 2 = neutral, 4 = positive) and they can be used to detect sentiment. But only 40000 rows where randomly selected from this dataset, with equal distribution of positive and negative tweets, i.e. neutral tweets were ignored as this study focuses on binary classification.
+
+## Data Description:
+
+Dataset Composition: The dataset includes fields such as 'target' (indicating sentiment polarity), 'ids', 'date', 'flag', 'user', and 'text'. We preprocess the data to create a balanced subset with 20,000 tweets each for negative, neutral, and positive sentiments.
+
+Data Processing and Balancing: We use the VADER tool to reclassify and balance the dataset, ensuring uniform representation across sentiment classes.
+
+Data Cleaning and Preprocessing: We perform data cleaning to remove irrelevant and noisy components from the text data, including URLs, HTML tags, special characters, and user mentions. We also perform tokenization, stop word removal, lemmatization, and expansion of contractions.
+
+
