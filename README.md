@@ -30,4 +30,16 @@ Data Processing and Balancing: We use the VADER tool to reclassify and balance t
 
 Data Cleaning and Preprocessing: We perform data cleaning to remove irrelevant and noisy components from the text data, including URLs, HTML tags, special characters, and user mentions. We also perform tokenization, stop word removal, lemmatization, and expansion of contractions.
 
+## TF-IDF Vectorization for Feature Extraction
+We use TF-IDF vectorization to transform preprocessed text into a numerical format suitable for machine learning algorithms. TF-IDF helps in selecting and weighting words based on their importance in the document and the corpus.
+
+## Models and Methods Employed in Sentiment Analysis
+We employ several machine learning models, including Logistic Regression, Naive Bayes, SVM, Decision Trees, and an Ensemble Method (Voting Classifier), to perform sentiment analysis on the textual data. Each model offers unique advantages and is chosen based on its suitability for the task.
+
+## Experiments & Observations
+We evaluate the performance of the sentiment analysis models using metrics such as accuracy, precision, recall, and F1-score. SVM and the Voting Classifier show superior performance, demonstrating the effectiveness of ensemble methods.
+
+## Conclusions & Roadmap
+We conclude that traditional machine learning models are effective for sentiment analysis in textual data contexts. Future work could involve integrating deep learning techniques, exploring advanced features, and incorporating more diverse datasets to further improve model performance.
+
 
