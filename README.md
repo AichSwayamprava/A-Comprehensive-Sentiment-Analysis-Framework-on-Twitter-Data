@@ -20,7 +20,7 @@ Twitter provides a rich source of data for sentiment analysis. This report explo
 The dataset that was used was obtained from “Kaggle” (https://www.kaggle.com/datasets/kazanova/sentiment140) dataset. The dataset snapshot has been attached below for reference -
 ![image](https://github.com/AichSwayamprava/A-Comprehensive-Sentiment-Analysis-Framework-on-Twitter-Data/assets/128501002/e7144ea9-4c76-4aa0-896d-3daf2c4468fa)
 
-It contains 1,600,000 tweets extracted using the twitter API. The tweets have been annotated (0 = negative, 2 = neutral, 4 = positive) and they can be used to detect sentiment. But only 60000 rows where randomly selected from this dataset, with equal distribution of positive, netural and negative tweets.
+It contains 1,600,000 tweets extracted using the twitter API. The tweets have been annotated (0 = negative, 2 = neutral, 4 = positive) and they can be used to detect sentiment. But only 60000 rows were randomly selected from this dataset, with equal distribution of positive, netural and negative tweets.
 
 ## Data Description:
 
