@@ -8,9 +8,11 @@ Institution: Montclair State University
 
 ## Abstract:
 
-Twitter generates vast amounts of data reflecting public sentiment. This project uses supervised machine learning to analyze sentiments in tweets. We preprocess the tweets by removing special characters, stopwords, and performing lemmatization. We then apply TF-IDF vectorization to transform the preprocessed tweets into a numerical format, capturing the importance of words in each tweet relative to the entire dataset.
-To improve prediction accuracy, we employ an ensemble of classifiers, including Support Vector Machine, Logistic Regression, Naive Bayes, Decision Tree. Each classifier provides a unique perspective on the sentiment analysis task, and by combining their predictions, we achieve a more robust and accurate sentiment classification model.
-Our results demonstrate the efficacy of combining machine learning techniques for sentiment analysis on Twitter data. The ensemble model consistently outperforms individual classifiers, showcasing the benefit of leveraging diverse algorithms to capture different aspects of sentiment in tweets. This approach holds promise for understanding public opinion and sentiment trends on social media platforms.
+Twitter, a prolific source of data, mirrors the public sentiment dynamically. This project uses supervised machine learning to decode sentiments embedded in tweets. We meticulously preprocess tweets by removing special characters and stopwords and performing lemmatization to cleanse the text data. Subsequently, TF-IDF vectorization is employed to convert the preprocessed tweets into a numerical format that emphasizes the significance of words within each tweet relative to the dataset.
+
+To enhance the accuracy of sentiment predictions, we deploy an ensemble of classifiers—Support Vector Machine, Logistic Regression, Decision Tree, and Multinomial Naive Bayes. Each classifier contributes a distinct perspective to the sentiment analysis task, and their combined predictions yield a robust and precise sentiment classification model. Our approach is particularly tailored to handle bilingual tweets, adding a layer of complexity and relevance to the analysis given the diverse linguistic fabric of Twitter.
+
+The results demonstrate the efficacy of the ensemble model over individual classifiers, underscoring the advantages of leveraging a diverse set of algorithms to capture various facets of sentiment in tweets. This methodological framework promises significant utility in gauging public opinion and tracking sentiment trends on social media platforms. Future work could explore real-time analysis and the integration of more complex linguistic features to further enhance the model’s accuracy and applicability.
 
 ## Introduction:
 
@@ -30,7 +32,8 @@ Data Processing and Balancing: We use the VADER tool to reclassify and balance t
 
 Data Cleaning and Preprocessing: We perform data cleaning to remove irrelevant and noisy components from the text data, including URLs, HTML tags, special characters, and user mentions. We also perform tokenization, stop word removal, lemmatization, and expansion of contractions.
 
-<img width="256" alt="image" src="https://github.com/AichSwayamprava/A-Comprehensive-Sentiment-Analysis-Framework-on-Twitter-Data/assets/128501002/d2b431b8-cc3d-4198-b52a-3f44af9eb2e8">
+<img width="249" alt="image" src="https://github.com/AichSwayamprava/A-Comprehensive-Sentiment-Analysis-Framework-on-Twitter-Data/assets/128501002/376e6874-3ce9-4979-8957-56d2dfaacede">
+
 
 
 ## TF-IDF Vectorization for Feature Extraction
